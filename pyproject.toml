@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "datasets>=4.0.0",
     "jupyter>=1.1.1",
     "ollama>=0.5.3",
     "openai>=1.107.0",
@@ -12,4 +13,5 @@ dependencies = [
     "pydub>=0.25.1",
     "python-dotenv>=1.1.1",
     "speechrecognition>=3.14.3",
+    "transformers>=4.56.1",
 ]
